@@ -1,0 +1,2 @@
+class Uzer < ApplicationRecord
+end
