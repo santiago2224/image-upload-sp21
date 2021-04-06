@@ -4,8 +4,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     get "/api_test", to:'static#api_test'
-    resources :skills
-    resources :grades
-    resources :users
+    post "test_upload1", to: "uzers#test_upload1"
+    get "uzers", to: "uzers#index"
   end
 end
